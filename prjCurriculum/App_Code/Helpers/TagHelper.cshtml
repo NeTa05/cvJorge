@@ -1,0 +1,6 @@
+﻿@helper img(System.Web.Mvc.UrlHelper url, string archivo) {
+
+    string imagenes = @url.Content("~/Content/images/" + archivo);
+    <img alt="" src="@imagenes" />
+
+}

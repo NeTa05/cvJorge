@@ -1,0 +1,17 @@
+﻿.input-border {
+    color:black;
+    
+}
+
+.input-border:focus { 
+    color:black;
+   
+   
+}
+#send , #back,#recommend {
+    color: white;
+}
+#send :hover, #back:hover,#recommend:hover {
+    color: white;
+    text-decoration: underline;
+}
